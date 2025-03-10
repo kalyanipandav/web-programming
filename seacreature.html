@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sea Creatures Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            background-color: #2e8b57;
+            padding: 20px;
+            color: white;
+        }
+        h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .gallery .image-container {
+            overflow: hidden;
+            position: relative;
+            border-radius: 8px;
+        }
+        .image-container:hover img {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+        .gallery .image-container:after {
+            content: " ";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.5);
+            transition: all 0.3s ease;
+            opacity: 0;
+        }
+        .gallery .image-container:hover:after {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sea Creatures Gallery</h1>
+</header>
+
+<section class="gallery">
+   <div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/4UdEs7tTKwLJbxZPUYR3hF-1000-80.jpg" alt="Your Image">
+  <p class="image-name">1.Clownfish</p>
+</div>
+   <div class="image-container">
+  <img src="https://www.petakids.com/wp-content/uploads/2018/06/Dolphin-blog.jpg" alt="Your Image">
+  <p class="image-name">2.Dolphin</p>
+</div>
+<div class="image-container">
+  <img src="https://d1jyxxz9imt9yb.cloudfront.net/medialib/1319/image/s1300x1300/Mignon0W0A3760_reduced.jpg" alt="Your Image">
+  <p class="image-name">3.Whale</p>
+</div>
+<div class="image-container">
+  <img src="https://i0.wp.com/www.sciencenews.org/wp-content/uploads/2023/06/062623_CG_Megalodon_feat.jpg" alt="Your Image">
+  <p class="image-name">4.Shark</p>
+</div>
+<div class="image-container">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmsp93Oks10RSr-uiR_bCG6igPFJytLvW_iQ&s" alt="Your Image">
+  <p class="image-name">5.Octopus</p>
+</div>
+<div class="image-container">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR99ELIKfnyOChwKnbcRp6V2wtJ3ZGe1oGa9Q&slink pathav
+" alt="Your Image">
+  <p class="image-name">6.Squid</p>
+</div>
+<div class="image-container">
+  <img src="https://hips.hearstapps.com/hmg-prod/images/spotted-frogfish-antennarius-pictus-raja-ampat-west-papua-news-photo-1598894652.jpg?crop=1xw:1xh;center,top&resize=980:*">
+  <p class="image-name">7.Frogfish</p>
+</div>
+<div class="image-container">
+  <img src="https://hips.hearstapps.com/pop.h-cdn.co/assets/cm/15/05/768x516/54ca6a657a8d2_-_ocean-census-squidworm-1006-lgn.jpg?resize=980:*" alt="Your Image">
+  <p class="image-name">8
+The Squidworm</p>
+</div>
+<div class="image-container">
+  <img src="https://hips.hearstapps.com/hmg-prod/images/giant-isopod-in-the-zoo-zoologischer-garten-aquarium-in-news-photo-1598896511.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="Your Image">
+  <p class="image-name">9
+Giant Isopod</p>
+</div>
+<div class="image-container">
+  <img src="https://hips.hearstapps.com/hmg-prod/images/neon-slug-nudibranch-nembrotha-purpureolineolata-ambon-news-photo-1598896775.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="Your Image">
+  <p class="image-name">10
+Nudibranch</p>
+</div>
+<div class="image-container">
+  <img src="https://hips.hearstapps.com/pop.h-cdn.co/assets/cm/15/05/54ca6a748a340_-_ocean-census-sea-angel-1006-lg.jpg?fill=320:250&resize=980:*" alt="Your Image">
+  <p class="image-name">11
+Sea Angel</p>
+</div>
+<div class="image-container">
+  <img src="https://hips.hearstapps.com/hmg-prod/images/pelican-eel-1569959674.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="Your Image">
+  <p class="image-name">12
+Gulper Eel</p>
+</div><div class="image-container">
+  <img src="https://hips.hearstapps.com/pop.h-cdn.co/assets/cm/15/05/54ca6a75e6d04_-_ocean-census-marrus-orthocanna-1006-lg.jpg?fill=320:250&resize=980:*" alt="Your Image">
+  <p class="image-name">13
+Marrus Orthocanna</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/8b27MH9EUYv7qZ4LrDrrRe-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">14 Pink see-through fantasia</p>
+</div>
+<div class="image-container">
+  <img src="https://hips.hearstapps.com/pop.h-cdn.co/assets/cm/15/05/768x516/54ca6a682746b_-_ocean-census-munnopsis-isopod-1006-lgn.jpg?resize=980:*" alt="Your Image">
+  <p class="image-name">15
+Munnopis Isopod</p>
+</div>
+<div class="image-container">
+  <img src="https://hips.hearstapps.com/hmg-prod/images/red-lipped-batfish-ogcocephalus-darwini-cabo-douglas-news-photo-1569957311.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="Your Image">
+  <p class="image-name">16
+Red-lipped Batfish</p>
+</div>
+<div class="image-container">
+  <img src="https://hips.hearstapps.com/pop.h-cdn.co/assets/cm/15/05/54ca6a76b61cf_-_ocean-census-crysomallon-squamiferum-1006-lg.jpg?fill=320:250&resize=980:*" alt="Your Image">
+  <p class="image-name">17
+Armored Snail</p>
+</div>
+<div class="image-container">
+  <img src="https://hips.hearstapps.com/pop.h-cdn.co/assets/cm/15/05/54ca6a775c79d_-_ocean-census-cirrate-octopod-1006-lg.jpg?fill=320:250&resize=980:*" alt="Your Image">
+  <p class="image-name">18
+Bioluminescent Octopus</p>
+</div>
+<div class="image-container">
+  <img src="https://hips.hearstapps.com/pop.h-cdn.co/assets/cm/15/05/768x516/54ca6a6963fa4_-_ocean-census-flamingo-tongue-snail-1006-lgn.jpg?resize=980:*" alt="Your Image">
+  <p class="image-name">19
+Flamingo Tongue Snail</p>
+</div>
+<div class="image-container">
+  <img src="https://hips.hearstapps.com/pop.h-cdn.co/assets/cm/15/05/54ca6a78322ad_-_ocean-census-vampire-squid-1006-lg.jpg?fill=320:408&resize=980:*" alt="Your Image">
+  <p class="image-name">20
+Vampire Squid</p>
+</div>
+<div class="image-container">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDFi7S-_o4maFtQvwh8s3u261Ow0-yUaxG8Q&s">
+  <p class="image-name">21 Coral</p>
+</div>
+<div class="image-container">
+  <img src="https://www.mbari.org/wp-content/uploads/Beroe_abyssicola_D1351_02-960.jpeg" alt="Your Image">
+  <p class="image-name">22 Abyssal comb jelly</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/rUzzKoEgwsiB3nGwxayopQ-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">23
+Snailfish</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/TTu5pjaAhLwvjAgC4KPLm7-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">24 Snipe eel</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/MzPMMfP8vuTACw7QaEFWKJ-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">25 Frilled shark</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/p37HLak8sqTH8aLQDSZr3C-970-80.jpg.webp"Your Image">
+  <p class="image-name">26.
+Giant sea spider</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/HStoUMhUozveLB6nHPm8WQ-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">27.Squidworm</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/T2TXETQcAhfd8FG739aCK9-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">28.Rabbit fish</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/v4BKLwKZeVxNoNpFwAgN4i-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">29.Cookiecutter shark</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/5XxbpcCZCWdMmMUb5aito8-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">30.Dumbo octopus</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/gZwi5puRQXD6ozvXbN8amL-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">31.Viperfish</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/x2JmNv6wtDG2RkRXxLjBQY-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">32.Goblin shark</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/SeAyPpnQwYzp9m7iVWxmmV-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">33.Siphonophores</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/ebKxQqQvyVbdnAWoDmrVYE-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">34.Greenland shark</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/bJWyZUKCV6owXnE7LtmUfZ-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">35.Sea pig</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/ybeJVixnizTHc7WEFWftC6-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">36.Goosefish</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/qY7wGZj5MkiME27WfyKCSg-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">37.Brier shark</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/XXzFomwh4j2TgPhxLzzLNA-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">38.Bigfin squid</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/MizShy6BUEdgMhGs6XM6PT-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">39.Black seadevil anglerfish Eel</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/Piy7KHxsTLzKjunjpb4Zt6-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">40.Purpleback flying squid</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/gEoyininYrKBExSoY5C3dT-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">41.Giant isopod</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/3krHWENacuYuEM7HxxgAjd-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">42.Bloody-belly comb jelly</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/R2aA9Lbah5VeJtNXAiwzj8-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">43.Black swallower</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/xnPpQ7FfZX3mk2aAgmvbeN-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">44.Vampire squid</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/cLP4JGiAQ7wM3p2fWdSutb-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">45.Lanternfish</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/TqrkxNGfgYZf2VhBnknfo3-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">46.Hoff crab</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/bRv5skManU4oAGVspZdBgb-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">47.
+Deep-sea lizardfish</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/WNPBywChRJggWot8TmBUQQ-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">48.Sea angel</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/62XMLTKRvQ6np3o5Nrno9c-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">49.Dragonfish</p>
+</div>
+<div class="image-container">
+  <img src="https://cdn.mos.cms.futurecdn.net/8cVaperXwmnJM544z8iYL9-970-80.jpg.webp" alt="Your Image">
+  <p class="image-name">50.Cockeyed squid</p>
+</div>
+
+    </div>
+</section>
+
+</body>
+</html>
